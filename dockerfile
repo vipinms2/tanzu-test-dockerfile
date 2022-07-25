@@ -1,5 +1,5 @@
-ARG BUILDER_IMAGE=maven
-ARG RUNTIME_IMAGE=gcr.io/distroless/java17-debian11
+ARG BUILDER_IMAGE=tapvipins2.azurecr.io/images/maven:latest
+ARG RUNTIME_IMAGE=tapvipins2.azurecr.io/images-java/java17-debian11:latest
 
 
 FROM $BUILDER_IMAGE AS build
